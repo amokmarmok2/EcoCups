@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Из гущи в чашку — Экологичная посуда из переработанного кофе</title>
+  <meta name="description" content="Инновационная посуда из кофейного жмыха: кружки для эспрессо, капучино и термокружки. 50-70% натуральной гущи, 100% биоразлагаемо, устойчиво к кипятку.">
+  <meta name="keywords" content="кофейный жмых, экопосуда, чашки из кофе, биокомпозит, переработка кофе, кружки из жмыха, экостаканы">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%233E2723'/><path d='M30 40h34a1 1 0 0 1 1 1v18a14 14 0 0 1-14 14h-8a14 14 0 0 1-14-14V41a1 1 0 0 1 1-1z' fill='%23C8873A'/><path d='M65 46h6a6 6 0 0 1 6 6v2a6 6 0 0 1-6 6h-6' stroke='%23C8873A' stroke-width='4' fill='none'/></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300..800;1,300..800&family=Unbounded:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-announcement">
+    <div class="container announcement-content">
+      <span class="announcement-pill">Эко-инициатива</span>
+      <p>Сдаем кофейную гущу на переработку: <strong>более 2.4 тонн жмыха</strong> спасено от полигона в этом месяце</p>
+      <a href="partners.html" class="announcement-link">Подключить кофейню &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="На главную">
+        <div class="brand-icon">
+          <svg viewBox="0 0 40 40" fill="none" class="brand-svg">
+            <path d="M20 36C28.8366 36 36 28.8366 36 20C36 15.5 34.2 11.5 31.2 8.5" stroke="#C8873A" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3"/>
+            <path d="M20 4C11.1634 4 4 11.1634 4 20C4 24.5 5.8 28.5 8.8 31.5" stroke="#6B8F4E" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3"/>
+            <path d="M12 16H24C24.55 16 25 16.45 25 17V23C25 26.31 22.31 29 19 29H17C13.69 29 11 26.31 11 23V17C11 16.45 11.45 16 12 16Z" fill="#3E2723"/>
+            <path d="M25 19H27C28.1 19 29 19.9 29 21C29 22.1 28.1 23 27 23H25" stroke="#3E2723" stroke-width="2"/>
+            <path d="M15 13C15 13 16 11 16 10" stroke="#C8873A" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M19 14C19 14 20 12 20 11" stroke="#C8873A" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">ИЗ ГУЩИ В ЧАШКУ</span>
+          <span class="brand-sub">CoffeeNewLife • Посуда из кофе</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="main-nav" id="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active">Главная</a></li>
+          <li><a href="catalog.html" class="nav-link">Каталог кружек</a></li>
+          <li><a href="production.html" class="nav-link">Технология производства</a></li>
+          <li><a href="about.html" class="nav-link">О материале</a></li>
+          <li><a href="partners.html" class="nav-link">Кофейням</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button class="cart-trigger-btn" id="cart-trigger" aria-label="Открыть корзину">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 01-8 0"></path>
+          </svg>
+          <span class="cart-badge" id="cart-count">0</span>
+        </button>
+        <a href="catalog.html" class="btn btn-primary header-cta-btn">Выбрать кружку</a>
+
+        <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Открыть меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-shapes">
+      <div class="glow-orb orb-1"></div>
+      <div class="glow-orb orb-2"></div>
+    </div>
+
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-tag">
+          <span class="tag-icon">🌱</span>
+          <span>Циклическая экономика • Zero Waste</span>
+        </div>
+
+        <h1 class="hero-title">
+          Ваш утренний кофе дарит <span class="text-accent">вторую жизнь</span>
+        </h1>
+
+        <p class="hero-desc">
+          Мы собираем отработанную кофейную гущу из городских кофеен и превращаем ее в прочную, бархатистую и безопасную посуду. Каждая кружка хранит легкий древесно-кофейный аромат и помогает планете освободиться от мусора.
+        </p>
+
+        <div class="hero-highlights">
+          <div class="highlight-item">
+            <span class="hl-value">50–70%</span>
+            <span class="hl-label">кофейного жмыха</span>
+          </div>
+          <div class="highlight-divider"></div>
+          <div class="highlight-item">
+            <span class="hl-value">100°C</span>
+            <span class="hl-label">термостойкость</span>
+          </div>
+          <div class="highlight-divider"></div>
+          <div class="highlight-item">
+            <span class="hl-value">0%</span>
+            <span class="hl-label">микропластика</span>
+          </div>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="catalog.html" class="btn btn-accent btn-lg">
+            <span>Смотреть каталог кружек</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="production.html" class="btn btn-outline btn-lg">
+            <span>Технология 5 шагов</span>
+          </a>
+        </div>
+
+        <div class="hero-footer-stats">
+          <div class="partner-avatars">
+            <span class="avatar-circle">☕</span>
+            <span class="avatar-circle">♻️</span>
+            <span class="avatar-circle">🌱</span>
+          </div>
+          <p class="stats-text"><strong>42 кофейни</strong> сдают нам кофейную гущу ежедневно</p>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card-showcase" id="hero-card-showcase">
+          <div class="showcase-badge">Флагман коллекции</div>
+          <div class="showcase-image-wrapper">
+            <img src="assets/images/mug_cappuccino_grain.jpg" alt="Кружка из кофейного жмыха" class="showcase-img" id="hero-interactive-img">
+            <div class="aroma-steam">
+              <span class="steam-s s1"></span>
+              <span class="steam-s s2"></span>
+              <span class="steam-s s3"></span>
+            </div>
+          </div>
+          <div class="showcase-info">
+            <div class="showcase-header">
+              <div>
+                <h2 class="showcase-title">Кофейная чашка «Капучино Классик»</h2>
+                <span class="showcase-subtitle">220 мл • В комплекте с кофейным блюдцем</span>
+              </div>
+              <span class="showcase-price">4 900 ₸</span>
+            </div>
+            <div class="material-pills">
+              <span class="mat-pill">☕ 65% жмыха</span>
+              <span class="mat-pill">✨ Матовый бархат</span>
+              <span class="mat-pill">💧 Посудомойка ОК</span>
+            </div>
+            <button class="btn btn-primary btn-block quick-preview-btn" onclick="openProductModal('cappuccino-classic')">
+              Исследовать кружку подробно &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- Floating Stats -->
+        <div class="floating-stat-card card-left">
+          <div class="stat-icon">🔄</div>
+          <div>
+            <div class="stat-num">3–6 мес.</div>
+            <div class="stat-sub">компостирование без остатка</div>
+          </div>
+        </div>
+
+        <div class="floating-stat-card card-right">
+          <div class="stat-icon">🔥</div>
+          <div>
+            <div class="stat-num">140–180°C</div>
+            <div class="stat-sub">горячее прессование</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Products Preview -->
+  <section class="section" style="background-color: var(--color-cream-light);">
+    <div class="container">
+      <div class="section-head text-center">
+        <span class="section-eyebrow">Коллекция посуды</span>
+        <h2 class="section-title">Популярные кружки из кофейной гущи</h2>
+        <p class="section-subtitle">
+          Натуральный оттенок обжаренных кофейных зерен, бархатистая матовая поверхность и естественная теплота. Нажмите на любую кружку, чтобы рассмотреть характеристики и фото.
+        </p>
+      </div>
+
+      <div class="products-grid" id="homepage-products-preview">
+        <!-- Rendered by JS: Top 3 products -->
+      </div>
+
+      <div class="text-center" style="margin-top: 10px;">
+        <a href="catalog.html" class="btn btn-primary btn-lg">
+          <span>Смотреть весь каталог кружек (все 6 моделей)</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: 5 Production Steps Preview -->
+  <section class="section" id="production-preview">
+    <div class="container">
+      <div class="section-head text-center">
+        <span class="section-eyebrow">Замкнутый цикл</span>
+        <h2 class="section-title">Как кофейные остатки становятся посудой</h2>
+        <p class="section-subtitle">
+          Честный 5-этапный цикл: от сбора влажного жмыха в кофейне до горячего прессования и последующего промышленного компоста.
+        </p>
+      </div>
+
+      <!-- Steps Stack with Fixed Clean Layout -->
+      <div class="steps-list-stack">
+        <!-- Step 1 -->
+        <article class="step-card">
+          <div class="step-image-preview">
+            <img src="assets/images/step1_collection.jpg" alt="Сбор кофейного жмыха в кофейнях" loading="lazy">
+            <span class="step-image-overlay-badge">Этап 1 • Логистика сырья</span>
+          </div>
+          <div class="step-content-wrapper">
+            <div class="step-top-meta">
+              <span class="step-number-huge">1</span>
+              <div class="step-icon-bubble">🚛</div>
+              <span class="step-phase-tag">Фаза 1: Сырьевая база</span>
+            </div>
+            <h3 class="step-title-main">СОБИРАЕМ</h3>
+            <p class="step-desc-p">
+              Забираем жмых из партнерских кофеен, кофе-точек и бизнес-центров. Предоставляем заведениям герметичные пищевые баки объемом 15–20 литров с плотным силиконовым уплотнителем против плесени.
+            </p>
+            <div class="step-metric-pill">
+              <span class="metric-num">3–10 кг</span>
+              <span class="metric-label">в день собирается с одной средней кофейни</span>
+            </div>
+            <ul class="step-bullets">
+              <li>Кольцевой утренний маршрут курьеров (Loop Logistics) до пика пробок</li>
+              <li>Схема «обмен тары»: привозится чистый дезинфицированный бак, забирается полный</li>
+              <li>Эко-статус и партнерские скидки на кофейную посуду для заведений</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Step 2 -->
+        <article class="step-card reverse-card">
+          <div class="step-image-preview">
+            <img src="assets/images/step2_drying.jpg" alt="Сушка кофейного жмыха до 5% влажности" loading="lazy">
+            <span class="step-image-overlay-badge">Этап 2 • Обезвоживание</span>
+          </div>
+          <div class="step-content-wrapper">
+            <div class="step-top-meta">
+              <span class="step-number-huge">2</span>
+              <div class="step-icon-bubble">☀️</div>
+              <span class="step-phase-tag">Фаза 2: Подготовка биомассы</span>
+            </div>
+            <h3 class="step-title-main">СУШИМ</h3>
+            <p class="step-desc-p">
+              Влажный жмых содержит до 65% воды и может заплесневеть за 24–48 часов. Мы проводим мгновенный механический отжим на шнековом прессе и конвекционную термическую сушку.
+            </p>
+            <div class="step-metric-pill">
+              <span class="metric-num">с 65% до 5%</span>
+              <span class="metric-label">снижение влажности для длительного хранения</span>
+            </div>
+            <ul class="step-bullets">
+              <li>Первичный сброс влажности с 65% до 35% механическим путем</li>
+              <li>Термический сушильный барабан доводит влажность до стабильных 3–5%</li>
+              <li>Сухая кофейная масса хранится месяцами без риска развития грибка</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Step 3 -->
+        <article class="step-card">
+          <div class="step-image-preview">
+            <img src="assets/images/step3_mixing.jpg" alt="Измельчение и смешивание биокомпозита" loading="lazy">
+            <span class="step-image-overlay-badge">Этап 3 • Био-компаунд</span>
+          </div>
+          <div class="step-content-wrapper">
+            <div class="step-top-meta">
+              <span class="step-number-huge">3</span>
+              <div class="step-icon-bubble">⚙️</div>
+              <span class="step-phase-tag">Фаза 3: Рецептура компаунда</span>
+            </div>
+            <h3 class="step-title-main">СМЕШИВАЕМ</h3>
+            <p class="step-desc-p">
+              Высушенный жмых перемалывается в тончайшую микро-муку на роторной мельнице и объединяется с термостойким органическим связующим (кристаллизованный полилактид/целлюлоза) и природными восками.
+            </p>
+            <div class="step-metric-pill">
+              <span class="metric-num">50–70%</span>
+              <span class="metric-label">кофейной фракции в структуре материала</span>
+            </div>
+            <ul class="step-bullets">
+              <li>Микронизация кофейной массы обеспечивает монолитную бархатистую текстуру</li>
+              <li>Органическая термостойкая матрица исключает деформацию при нагреве</li>
+              <li>Растительные воски и смолы гарантируют 100% гидрофобность (защиту от воды)</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Step 4 -->
+        <article class="step-card reverse-card">
+          <div class="step-image-preview">
+            <img src="assets/images/step4_pressing.jpg" alt="Горячее прессование кружек в пресс-форме" loading="lazy">
+            <span class="step-image-overlay-badge">Этап 4 • Термопрессование</span>
+          </div>
+          <div class="step-content-wrapper">
+            <div class="step-top-meta">
+              <span class="step-number-huge">4</span>
+              <div class="step-icon-bubble">♨️</div>
+              <span class="step-phase-tag">Фаза 4: Формование изделия</span>
+            </div>
+            <h3 class="step-title-main">ПРЕССУЕМ</h3>
+            <p class="step-desc-p">
+              Горячее прессование (Compression Molding) в полированных стальных пресс-формах под высоким давлением при температуре 140–180°C. Частицы спекаются в ударопрочное цельное изделие.
+            </p>
+            <div class="step-metric-pill">
+              <span class="metric-num">140–180 °C</span>
+              <span class="metric-label">температура запекания под гидравлическим прессом</span>
+            </div>
+            <ul class="step-bullets">
+              <li>Спекание природных компонентов без добавления токсичных клеев</li>
+              <li>Автоматическая обработка и эргономичное закругление питьевой кромки</li>
+              <li>Строгий контроль геометрии и проверка на микротрещины</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Step 5 (Eco Finish) -->
+        <article class="step-card eco-step-card">
+          <div class="step-image-preview">
+            <img src="assets/images/step5_eco_cup.jpg" alt="Многоразовая эко-посуда и безопасный финал" loading="lazy">
+            <span class="step-image-overlay-badge">Этап 5 • Жизненный цикл</span>
+          </div>
+          <div class="step-content-wrapper">
+            <div class="step-top-meta">
+              <span class="step-number-huge">5</span>
+              <div class="step-icon-bubble">🌱</div>
+              <span class="step-phase-tag">Фаза 5: Эксплуатация и возврат в круг</span>
+            </div>
+            <h3 class="step-title-main">ИСПОЛЬЗУЕМ И ВОЗВРАЩАЕМ</h3>
+            <p class="step-desc-p">
+              Кружка служит годами, держит кипяток (до 100°C) и подходит для посудомоечной машины. Когда изделие завершает свой путь — оно отправляется на промышленный компост, возвращаясь в органику.
+            </p>
+            <div class="step-metric-pill">
+              <span class="metric-num">3–6 месяцев</span>
+              <span class="metric-label">промышленное компостирование в питательный гумус</span>
+            </div>
+            <ul class="step-bullets">
+              <li>Теплый естественный оттенок, приятная тактильность и легкий кофейный флер</li>
+              <li>Полное отсутствие микропластика при контакте с горячим кофе</li>
+              <li>Замкнутый природный круг: кофейное зерно &rarr; чашка &rarr; почва</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <div class="text-center">
+        <a href="production.html" class="btn btn-primary btn-lg">
+          <span>Подробнее об инженерии и сертификации ТР ТС 005/2011 &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Eco Calculator Preview Section -->
+  <section class="section" style="background-color: var(--color-cream-light);">
+    <div class="container">
+      <div class="calculator-card">
+        <div class="calc-header">
+          <span class="calc-tag">Экологический след</span>
+          <h2 class="calc-title">Сколько жмыха вы можете спасти?</h2>
+          <p class="calc-desc">Выберите среднее количество чашек кофе, которое выпивается за день:</p>
+        </div>
+
+        <div class="calc-body">
+          <div class="slider-group">
+            <div class="slider-labels">
+              <span class="slider-txt">Чашек кофе в день:</span>
+              <span class="slider-value-bubble" id="cups-count-val">3 чашки</span>
+            </div>
+            <input type="range" min="1" max="50" value="3" class="eco-slider" id="eco-cups-slider" aria-label="Количество чашек">
+            <div class="slider-ticks">
+              <span>1 чашка</span>
+              <span>10 чашек</span>
+              <span>25 чашек (офис)</span>
+              <span>50 чашек (коворкинг)</span>
+            </div>
+          </div>
+
+          <div class="calc-results-grid">
+            <div class="result-box">
+              <span class="res-icon">♻️</span>
+              <div class="res-num" id="res-grounds-kg">19.7 кг</div>
+              <div class="res-label">жмыха спасено в год от полигона ТБО</div>
+            </div>
+
+            <div class="result-box">
+              <span class="res-icon">☕</span>
+              <div class="res-num" id="res-cups-made">39 шт.</div>
+              <div class="res-label">кружек можно изготовить из этого сырья</div>
+            </div>
+
+            <div class="result-box">
+              <span class="res-icon">🌿</span>
+              <div class="res-num" id="res-co2-saved">41.4 кг</div>
+              <div class="res-label">сокращение выбросов CO₂ в атмосферу</div>
+            </div>
+          </div>
+
+          <div class="calc-action text-center">
+            <p class="calc-hint">Хотите подключить ваше заведение к регулярному сбору кофейной гущи?</p>
+            <a href="partners.html" class="btn btn-accent">Условия для кофеен и офисов &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Partner Banner -->
+  <section class="section" style="background-color: var(--color-coffee); color: var(--color-cream);">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: center;">
+        <div>
+          <span style="background-color: var(--color-caramel); color: #fff; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; padding: 4px 12px; border-radius: 999px; display: inline-block; margin-bottom: 16px;">Сотрудничество</span>
+          <h2 style="font-family: var(--font-display); font-size: 2.2rem; font-weight: 800; line-height: 1.25; margin-bottom: 16px;">
+            Бесплатный вывоз кофейного жмыха для кофеен
+          </h2>
+          <p style="font-size: 1.05rem; color: var(--color-cream-dark); line-height: 1.6; margin-bottom: 24px;">
+            Мы бесплатно предоставляем герметичные баки 15–20 л, регулярно меняем их по расписанию «чистый на полный» и дарим заведению официальный эко-статус и скидку 30% на посуду.
+          </p>
+          <a href="partners.html" class="btn btn-accent btn-lg">Оставить заявку на подключение &rarr;</a>
+        </div>
+        <div style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: var(--radius-xl); padding: 32px; text-align: center;">
+          <div style="font-size: 3rem; margin-bottom: 12px;">☕ ➔ ♻️ ➔ 🏆</div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; color: var(--color-caramel-light);">Эко-статус для вашего заведения</h3>
+          <p style="font-size: 0.9rem; color: var(--color-cream-dark); line-height: 1.5;">Наклейка на дверь «Здесь кофе обретает вторую жизнь» и признание осознанных гостей города.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-col brand-col">
+        <div class="footer-logo">
+          <div class="brand-icon">
+            <svg viewBox="0 0 40 40" fill="none" class="brand-svg">
+              <path d="M20 36C28.8366 36 36 28.8366 36 20C36 15.5 34.2 11.5 31.2 8.5" stroke="#C8873A" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3"/>
+              <path d="M20 4C11.1634 4 4 11.1634 4 20C4 24.5 5.8 28.5 8.8 31.5" stroke="#6B8F4E" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3"/>
+              <path d="M12 16H24C24.55 16 25 16.45 25 17V23C25 26.31 22.31 29 19 29H17C13.69 29 11 26.31 11 23V17C11 16.45 11.45 16 12 16Z" fill="#F4EBDD"/>
+            </svg>
+          </div>
+          <span class="footer-title">ИЗ ГУЩИ В ЧАШКУ</span>
+        </div>
+        <p class="footer-slogan">«Ваш утренний кофе дарит вторую жизнь»</p>
+        <p class="footer-desc">
+          Производство экологичной дизайнерской посуды из кофейного жмыха. Безотходная переработка и нулевой углеродный след.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Страницы сайта</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Каталог кружек</a></li>
+          <li><a href="production.html">Технология производства</a></li>
+          <li><a href="about.html">О материале</a></li>
+          <li><a href="partners.html">Кофейням и бизнесу</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Сотрудничество</h4>
+        <ul class="footer-links">
+          <li><a href="partners.html">Сдать кофейную гущу</a></li>
+          <li><a href="partners.html">Для офисов и коворкингов</a></li>
+          <li><a href="catalog.html">Корпоративные подарки с лого</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col contact-col">
+        <h4 class="footer-heading">Контакты</h4>
+        <div class="footer-contacts">
+          <p><strong>Телефон:</strong> <a href="tel:+77770007700">+7 777 ### 7700</a></p>
+          <p><strong>Email:</strong> <a href="mailto:user1@example.com">user1@example.com</a></p>
+          <p><strong>Город:</strong> Алматы, Республика Казахстан</p>
+          <p class="footer-note">Срок разложения указан для промышленного компоста.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container bottom-inner">
+        <p>© 2026 CoffeeNewLife — «Из гущи в чашку». Все права защищены.</p>
+        <p>Соответствует ТР ТС 005/2011 «О безопасности упаковки и посуды»</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Product Detail Modal (Быстрый просмотр любой кружки) -->
+  <div class="modal-overlay" id="product-modal-overlay" aria-hidden="true">
+    <div class="modal-dialog product-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-product-title">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Закрыть модальное окно">&times;</button>
+      <div class="product-modal-body" id="product-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay" aria-hidden="true">
+    <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-label="Корзина покупок">
+      <div class="cart-header">
+        <h3>Ваша корзина</h3>
+        <button class="cart-close-btn" id="cart-close-btn">&times;</button>
+      </div>
+
+      <div class="cart-items-container" id="cart-items-container"></div>
+
+      <div class="cart-footer" id="cart-footer">
+        <div class="cart-summary-row">
+          <span>Сумма заказа:</span>
+          <span class="cart-total-price" id="cart-total-price">0 ₸</span>
+        </div>
+        <div class="cart-impact-notice">
+          🌱 Этот заказ спасет <strong id="cart-coffee-saved">0 г</strong> кофейного жмыха!
+        </div>
+        <button class="btn btn-accent btn-block btn-lg" onclick="checkoutOrder()">
+          Оформить эко-заказ &rarr;
+        </button>
+      </div>
+    </aside>
+  </div>
+
+  <div class="toast-container" id="toast-container"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

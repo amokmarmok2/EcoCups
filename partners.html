@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кофейням и бизнесу: Сдать кофейную гущу — Из гущи в чашку</title>
+  <meta name="description" content="Бесплатный вывоз кофейного жмыха для кофеен и офисов в Алматы. Предоставляем герметичные баки 15-20 л, обменную тару, эко-статус и скидку 30% на посуду.">
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%233E2723'/><path d='M30 40h34a1 1 0 0 1 1 1v18a14 14 0 0 1-14 14h-8a14 14 0 0 1-14-14V41a1 1 0 0 1 1-1z' fill='%23C8873A'/><path d='M65 46h6a6 6 0 0 1 6 6v2a6 6 0 0 1-6 6h-6' stroke='%23C8873A' stroke-width='4' fill='none'/></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300..800;1,300..800&family=Unbounded:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-announcement">
+    <div class="container announcement-content">
+      <span class="announcement-pill">Эко-инициатива</span>
+      <p>Сдаем кофейную гущу на переработку: <strong>более 2.4 тонн жмыха</strong> спасено от полигона в этом месяце</p>
+      <a href="partners.html" class="announcement-link">Подключить кофейню &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="На главную">
+        <div class="brand-icon">
+          <svg viewBox="0 0 40 40" fill="none" class="brand-svg">
+            <path d="M20 36C28.8366 36 36 28.8366 36 20C36 15.5 34.2 11.5 31.2 8.5" stroke="#C8873A" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3"/>
+            <path d="M20 4C11.1634 4 4 11.1634 4 20C4 24.5 5.8 28.5 8.8 31.5" stroke="#6B8F4E" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3"/>
+            <path d="M12 16H24C24.55 16 25 16.45 25 17V23C25 26.31 22.31 29 19 29H17C13.69 29 11 26.31 11 23V17C11 16.45 11.45 16 12 16Z" fill="#3E2723"/>
+            <path d="M25 19H27C28.1 19 29 19.9 29 21C29 22.1 28.1 23 27 23H25" stroke="#3E2723" stroke-width="2"/>
+            <path d="M15 13C15 13 16 11 16 10" stroke="#C8873A" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M19 14C19 14 20 12 20 11" stroke="#C8873A" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">ИЗ ГУЩИ В ЧАШКУ</span>
+          <span class="brand-sub">CoffeeNewLife • Посуда из кофе</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="main-nav" id="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Главная</a></li>
+          <li><a href="catalog.html" class="nav-link">Каталог кружек</a></li>
+          <li><a href="production.html" class="nav-link">Технология производства</a></li>
+          <li><a href="about.html" class="nav-link">О материале</a></li>
+          <li><a href="partners.html" class="nav-link active">Кофейням</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button class="cart-trigger-btn" id="cart-trigger" aria-label="Открыть корзину">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 01-8 0"></path>
+          </svg>
+          <span class="cart-badge" id="cart-count">0</span>
+        </button>
+        <a href="#partner-form-section" class="btn btn-primary header-cta-btn">Подключить сбор</a>
+
+        <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Открыть меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero text-center">
+    <div class="container">
+      <span class="page-hero-eyebrow">Партнерская программа Loop Logistics</span>
+      <h1 class="page-hero-title">Сдавайте кофейную гущу на переработку</h1>
+      <p class="page-hero-desc">
+        Одна кофейня генерирует от 3 до 10 кг влажного жмыха в день. Мы бесплатно вывозим его по кольцевому маршруту, экономя ваши расходы на ТБО и повышая статус заведения.
+      </p>
+    </div>
+  </section>
+
+  <!-- Partner Features & Form -->
+  <section class="section" id="partner-form-section" style="padding-top: 0;">
+    <div class="container">
+      <div class="partner-grid">
+        <div class="partner-content">
+          <span class="section-eyebrow">Как работает партнерство</span>
+          <h2 class="section-title">Никаких хлопот для бариста: схема «чистый на полный»</h2>
+          <p class="partner-p">
+            Влажный жмых плесневеет уже через 24–48 часов, поэтому скорость и герметичность критичны. Мы берем на себя полную инфраструктуру: дезинфекцию баков, логистику и утренний график вывоза.
+          </p>
+
+          <div class="partner-perks">
+            <div class="perk-item">
+              <div class="perk-icon">📦</div>
+              <div>
+                <h4>Бесплатные герметичные баки 15–20 л</h4>
+                <p>Пищевой пластик с силиконовым уплотнительным кольцом в крышке. Никакого запаха, мушек и подтекания на баре.</p>
+              </div>
+            </div>
+
+            <div class="perk-item">
+              <div class="perk-icon">🔄</div>
+              <div>
+                <h4>Схема «обмен тары» каждое утро</h4>
+                <p>Экспедитор привозит чистый продезинфицированный контейнер и забирает полный. Процесс занимает ровно 30 секунд.</p>
+              </div>
+            </div>
+
+            <div class="perk-item">
+              <div class="perk-icon">🏆</div>
+              <div>
+                <h4>Эко-статус и брендинг заведения</h4>
+                <p>Сертификат партнера Zero Waste, деревянная табличка на кассу и наклейка на входную группу «Мы сдаем гущу на переработку».</p>
+              </div>
+            </div>
+
+            <div class="perk-item">
+              <div class="perk-icon">🎁</div>
+              <div>
+                <h4>Скидка 30% на посуду и брендирование</h4>
+                <p>Подавайте напитки гостям в стильных кружках из переработанного кофе вашего собственного заведения с вашим логотипом.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="partner-form-card">
+          <div class="form-header">
+            <h3>Заявка на подключение заведения</h3>
+            <p>Заполните форму, и наш логист свяжется с вами сегодня</p>
+          </div>
+
+          <form id="partner-lead-form" class="partner-form" onsubmit="handlePartnerSubmit(event)">
+            <div class="form-group">
+              <label for="lead-name">Ваше имя и должность</label>
+              <input type="text" id="lead-name" class="form-input" placeholder="Алиса, управляющая" required>
+            </div>
+
+            <div class="form-group">
+              <label for="lead-cafe">Название кофейни / компании</label>
+              <input type="text" id="lead-cafe" class="form-input" placeholder="Кофейня «Coffee Point»" required>
+            </div>
+
+            <div class="form-group">
+              <label for="lead-city">Город и адрес заведения</label>
+              <input type="text" id="lead-city" class="form-input" placeholder="Алматы, пр. Абая, 150" required>
+            </div>
+
+            <div class="form-group">
+              <label for="lead-volume">Примерный объем кофейного жмыха</label>
+              <select id="lead-volume" class="form-input">
+                <option value="small">3–5 кг в день (1 кофемашина)</option>
+                <option value="medium" selected>5–10 кг в день (активная кофейня)</option>
+                <option value="large">Более 10 кг в день (сеть или большой коворкинг)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="lead-phone">Телефон / WhatsApp для связи</label>
+              <input type="tel" id="lead-phone" class="form-input" placeholder="+7 (707) 123-45-67" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block btn-lg" id="partner-submit-btn">
+              <span>Подключить бесплатный сбор</span>
+            </button>
+
+            <p class="form-privacy">Нажимая кнопку, вы соглашаетесь на обработку контактных данных.</p>
+          </form>
+        </div>
+      </div>
+
+      <!-- Corporate Merch Section -->
+      <div style="margin-top: 80px; background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-xl); padding: 48px; box-shadow: var(--shadow-sm);">
+        <div style="display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center;">
+          <div>
+            <span class="section-eyebrow">Корпоративным клиентам</span>
+            <h2 style="font-family: var(--font-display); font-size: 2rem; font-weight: 800; color: var(--color-coffee); margin-bottom: 16px;">
+              Посуда с логотипом вашей компании
+            </h2>
+            <p style="font-size: 1rem; color: var(--color-text-muted); line-height: 1.65; margin-bottom: 24px;">
+              Идеальный корпоративный подарок для сотрудников, партнеров и конференций. Лазерная гравировка или шелкография логотипа на экологичном биокомпозите из настоящего кофе.
+            </p>
+            <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+              <div style="background: var(--color-cream-light); padding: 12px 18px; border-radius: var(--radius-md);">
+                <strong style="color: var(--color-coffee); display: block;">Тираж от 20 шт.</strong>
+                <span style="font-size: 0.8rem; color: var(--color-text-muted);">Быстрое брендирование</span>
+              </div>
+              <div style="background: var(--color-cream-light); padding: 12px 18px; border-radius: var(--radius-md);">
+                <strong style="color: var(--color-coffee); display: block;">Крафтовая упаковка</strong>
+                <span style="font-size: 0.8rem; color: var(--color-text-muted);">Индивидуальный дизайн</span>
+              </div>
+            </div>
+          </div>
+          <div style="background: var(--color-cream); border-radius: var(--radius-lg); padding: 24px; text-align: center;">
+            <img src="assets/images/cup_lifestyle.jpg" alt="Корпоративные чашки из кофейного жмыха" style="border-radius: var(--radius-md); box-shadow: var(--shadow-md); margin-bottom: 16px;">
+            <p style="font-size: 0.85rem; font-weight: 600; color: var(--color-coffee);">Пример лазерного нанесения на чашке «Капучино Классик»</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-col brand-col">
+        <div class="footer-logo">
+          <div class="brand-icon">
+            <svg viewBox="0 0 40 40" fill="none" class="brand-svg">
+              <path d="M20 36C28.8366 36 36 28.8366 36 20C36 15.5 34.2 11.5 31.2 8.5" stroke="#C8873A" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3"/>
+              <path d="M20 4C11.1634 4 4 11.1634 4 20C4 24.5 5.8 28.5 8.8 31.5" stroke="#6B8F4E" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="3 3"/>
+              <path d="M12 16H24C24.55 16 25 16.45 25 17V23C25 26.31 22.31 29 19 29H17C13.69 29 11 26.31 11 23V17C11 16.45 11.45 16 12 16Z" fill="#F4EBDD"/>
+            </svg>
+          </div>
+          <span class="footer-title">ИЗ ГУЩИ В ЧАШКУ</span>
+        </div>
+        <p class="footer-slogan">«Ваш утренний кофе дарит вторую жизнь»</p>
+        <p class="footer-desc">
+          Производство экологичной дизайнерской посуды из кофейного жмыха. Безотходная переработка и нулевой углеродный след.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Страницы сайта</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Каталог кружек</a></li>
+          <li><a href="production.html">Технология производства</a></li>
+          <li><a href="about.html">О материале</a></li>
+          <li><a href="partners.html">Кофейням и бизнесу</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Сотрудничество</h4>
+        <ul class="footer-links">
+          <li><a href="partners.html">Сдать кофейную гущу</a></li>
+          <li><a href="partners.html">Для офисов и коворкингов</a></li>
+          <li><a href="catalog.html">Корпоративные подарки с лого</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col contact-col">
+        <h4 class="footer-heading">Контакты</h4>
+        <div class="footer-contacts">
+          <p><strong>Телефон:</strong> <a href="tel:+77770007700">+7 777 ### 7700</a></p>
+          <p><strong>Email:</strong> <a href="mailto:user1@example.com">user1@example.com</a></p>
+          <p><strong>Город:</strong> Алматы, Республика Казахстан</p>
+          <p class="footer-note">Срок разложения указан для промышленного компоста.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container bottom-inner">
+        <p>© 2026 CoffeeNewLife — «Из гущи в чашку». Все права защищены.</p>
+        <p>Соответствует ТР ТС 005/2011 «О безопасности упаковки и посуды»</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Product Detail Modal -->
+  <div class="modal-overlay" id="product-modal-overlay" aria-hidden="true">
+    <div class="modal-dialog product-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-product-title">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Закрыть">&times;</button>
+      <div class="product-modal-body" id="product-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay" aria-hidden="true">
+    <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-label="Корзина покупок">
+      <div class="cart-header">
+        <h3>Ваша корзина</h3>
+        <button class="cart-close-btn" id="cart-close-btn">&times;</button>
+      </div>
+      <div class="cart-items-container" id="cart-items-container"></div>
+      <div class="cart-footer" id="cart-footer">
+        <div class="cart-summary-row">
+          <span>Сумма заказа:</span>
+          <span class="cart-total-price" id="cart-total-price">0 ₸</span>
+        </div>
+        <div class="cart-impact-notice">
+          🌱 Этот заказ спасет <strong id="cart-coffee-saved">0 г</strong> кофейного жмыха!
+        </div>
+        <button class="btn btn-accent btn-block btn-lg" onclick="checkoutOrder()">
+          Оформить эко-заказ &rarr;
+        </button>
+      </div>
+    </aside>
+  </div>
+
+  <div class="toast-container" id="toast-container"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
